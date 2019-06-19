@@ -82,6 +82,9 @@
                     <navigationItem key="navigationItem" title="Item" id="1C8-RR-6tZ">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="ebN-T2-GzE">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="yyb-QE-cyw" id="nfB-OF-LYA"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
