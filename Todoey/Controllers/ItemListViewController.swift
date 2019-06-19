@@ -12,6 +12,9 @@ import CoreData
 class ItemListViewController: UITableViewController {
 
     //MARK: Local global variables
+    let context: NSManagedObjectContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    var selectedCategory: Category?
+    var itemArray: [Item] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
