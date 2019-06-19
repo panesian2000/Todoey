@@ -7,11 +7,28 @@
 //
 
 import UIKit
+import CoreData
 
 class ItemListViewController: UITableViewController {
 
+    //MARK: Local global variables
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    //MARK: Tableview datasource methods
+    
+    //MARK: Tableview delegate methods
+    
+    //MARK: Barbutton methods
+    
+    //MARK: Manipulate data methods
 
+}
+
+extension ItemListViewController: UISearchBarDelegate {
+    
+    //MARK: Searchbar methods
+    
 }
